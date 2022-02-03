@@ -37,7 +37,7 @@ namespace SimpleBuilder
 
                     var makeBuilderAttribute = classForBuilder
                         .GetAttributes()
-                        .FirstOrDefault(att => att.AttributeClass.FullName() == "SourceBuilder.MakeBuilderAttribute");
+                        .FirstOrDefault(att => att.AttributeClass.FullName() == "SimpleBuilder.MakeBuilderAttribute");
 
                     if (makeBuilderAttribute is not null)
                     {
