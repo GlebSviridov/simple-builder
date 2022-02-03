@@ -8,6 +8,7 @@
         <Authors>GlebSviridov</Authors>
         <RepositoryUrl>https://github.com/GlebSviridov/simple-builder</RepositoryUrl>
         <PackageVersion>1.0.0</PackageVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
