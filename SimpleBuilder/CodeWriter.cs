@@ -51,8 +51,6 @@ namespace SimpleBuilder
                     : "}");
         }
 
-        private string EscapeString(string text) => text.Replace("\"", "\"\"");
-
         class ScopeTracker : IDisposable
         {
             private CodeWriter Parent { get; }
